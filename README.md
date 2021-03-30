@@ -18,8 +18,14 @@ ___
 * First order and second order markov chains are built based on tokens.
 * First order and second order chain are converted in probability value.
 * The word with highest probability is selected from second order markov chain.
+
+![Markov Model Built](https://github.com/samyak3028/hidden-markov-model/blob/main/markov built.png?raw=true)
+
 * Text is generated based on corpus.
 * A play of given length is written by randomly selecting starting values.
+
+![Text Generated](https://github.com/samyak3028/hidden-markov-model/blob/main/text generated.png?raw=true)
+
 
 ___
 
@@ -27,3 +33,6 @@ ___
 * First order and second order markov chains were built in text generations so in this last word of the text is used to look for next word in markov chains and if the word is found then keep on looking for the next word.
 * First we check for word in second order then if not found check for word in first order.
 * Just determine the number of words to be predicted and the starting word.
+
+![Text Predicted](https://github.com/samyak3028/hidden-markov-model/blob/main/text predicted.png?raw=true)
+
