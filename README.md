@@ -19,12 +19,12 @@ ___
 * First order and second order chain are converted in probability value.
 * The word with highest probability is selected from second order markov chain.
 
-![Markov Model Built](https://github.com/samyak3028/hidden-markov-model/blob/main/markov built.png?raw=true)
+![Markov Model Built](https://github.com/samyak3028/hidden-markov-model/blob/main/markov_built.png?raw=true)
 
 * Text is generated based on corpus.
 * A play of given length is written by randomly selecting starting values.
 
-![Text Generated](https://github.com/samyak3028/hidden-markov-model/blob/main/text generated.png?raw=true)
+![Text Generated](https://github.com/samyak3028/hidden-markov-model/blob/main/text_generated.png?raw=true)
 
 
 ___
@@ -34,5 +34,5 @@ ___
 * First we check for word in second order then if not found check for word in first order.
 * Just determine the number of words to be predicted and the starting word.
 
-![Text Predicted](https://github.com/samyak3028/hidden-markov-model/blob/main/text predicted.png?raw=true)
+![Text Predicted](https://github.com/samyak3028/hidden-markov-model/blob/main/text_predicted.png?raw=true)
 
